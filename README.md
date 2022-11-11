@@ -22,7 +22,7 @@ Then it standardize their name with the format IMG/VID_YYYYMMDD.ext plus HHmmSS 
 
 ### Installing the script
 
-1. First of all, download the script and the dir.txt. After you download it in your machine, modify the `DIR` variable and the `EXIF_DIR` accordingly. This means that if you have followed the 2nd tutorial, then `EXIF_DIR=/usr/share/applications/ExifTool/exiftool` and if you have planned to use it only in in one directory (`/Photos` for example) you can not use dir.txt and change directly in the shell script the `DIR=/volumeX/homes/UserName/Photos/`.
+1. First of all, download the script and the dir.txt. After you download it in your machine, modify the `DIR` variable and the `EXIFTOOL_PATH` accordingly. This means that if you have followed the 2nd tutorial, then `EXIFTOOL_PATH=/usr/share/applications/ExifTool/exiftool` and if you have planned to use it only in in one directory (`/Photos` for example) you can not use dir.txt and change directly in the shell script the `DIR=/volumeX/homes/UserName/Photos/`.
 
 2. If you use absolute paths like I did in the examples in the first point, you can place the script and the dir.txt wherever you want on your Synology NAS, but you have to put them in the same directory (if you use both, so if you have more then one directory in which you want to use the script).
 
